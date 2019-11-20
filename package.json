@@ -1,0 +1,24 @@
+{
+  "name": "gitlab-users",
+  "version": "1.0.0",
+  "description": "Create json file with users users.json ``` {     \"users\": [{         \"username\": \"\",         \"name\": \"\",         \"email\": \"\"     }] } ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghafran/gitlab-users.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghafran/gitlab-users/issues"
+  },
+  "homepage": "https://github.com/ghafran/gitlab-users#readme",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "gitlab": "^11.6.0",
+    "lodash": "^4.17.15"
+  }
+}
